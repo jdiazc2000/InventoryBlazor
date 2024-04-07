@@ -1,0 +1,83 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = InventaryBlazor
+build_property.RootNamespace = InventaryBlazor
+build_property.ProjectDir = C:\Users\Julio\Desktop\Projects\.NET MVC\InventaryBlazor\InventaryBlazor\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Julio\Desktop\Projects\.NET MVC\InventaryBlazor\InventaryBlazor
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Julio/Desktop/Projects/.NET MVC/InventaryBlazor/InventaryBlazor/Components/App.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Julio/Desktop/Projects/.NET MVC/InventaryBlazor/InventaryBlazor/Components/Ejercicios/BlazorPages/Form001.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xFamVyY2ljaW9zXEJsYXpvclBhZ2VzXEZvcm0wMDEucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Julio/Desktop/Projects/.NET MVC/InventaryBlazor/InventaryBlazor/Components/Ejercicios/Products/CreateProductComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xFamVyY2ljaW9zXFByb2R1Y3RzXENyZWF0ZVByb2R1Y3RDb21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Julio/Desktop/Projects/.NET MVC/InventaryBlazor/InventaryBlazor/Components/Ejercicios/Products/ListProductsComponents.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xFamVyY2ljaW9zXFByb2R1Y3RzXExpc3RQcm9kdWN0c0NvbXBvbmVudHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Julio/Desktop/Projects/.NET MVC/InventaryBlazor/InventaryBlazor/Components/Ejercicios/Products/UpdateProductsComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xFamVyY2ljaW9zXFByb2R1Y3RzXFVwZGF0ZVByb2R1Y3RzQ29tcG9uZW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Julio/Desktop/Projects/.NET MVC/InventaryBlazor/InventaryBlazor/Components/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb3VudGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Julio/Desktop/Projects/.NET MVC/InventaryBlazor/InventaryBlazor/Components/Pages/Error.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Julio/Desktop/Projects/.NET MVC/InventaryBlazor/InventaryBlazor/Components/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Julio/Desktop/Projects/.NET MVC/InventaryBlazor/InventaryBlazor/Components/Pages/Products/CreateProductPage.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQcm9kdWN0c1xDcmVhdGVQcm9kdWN0UGFnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Julio/Desktop/Projects/.NET MVC/InventaryBlazor/InventaryBlazor/Components/Pages/Products/ListProductsPage.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQcm9kdWN0c1xMaXN0UHJvZHVjdHNQYWdlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Julio/Desktop/Projects/.NET MVC/InventaryBlazor/InventaryBlazor/Components/Pages/Products/UpdateProductPage.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQcm9kdWN0c1xVcGRhdGVQcm9kdWN0UGFnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Julio/Desktop/Projects/.NET MVC/InventaryBlazor/InventaryBlazor/Components/Pages/Weather.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xXZWF0aGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Julio/Desktop/Projects/.NET MVC/InventaryBlazor/InventaryBlazor/Components/Routes.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSb3V0ZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Julio/Desktop/Projects/.NET MVC/InventaryBlazor/InventaryBlazor/Components/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Julio/Desktop/Projects/.NET MVC/InventaryBlazor/InventaryBlazor/Components/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-vflwtkzci4
+
+[C:/Users/Julio/Desktop/Projects/.NET MVC/InventaryBlazor/InventaryBlazor/Components/Layout/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTmF2TWVudS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-4j4fatfkdw

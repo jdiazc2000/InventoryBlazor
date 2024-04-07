@@ -1,0 +1,29 @@
+﻿@page "/Form001"
+<h3>Form001</h3>
+
+<input type="text" @bind-value="@mensaje" />
+<input type="text" @bind-value="@text" />
+<button class="btn btn-primary" @onclick="ChangeText">Haga Click Aquí</button>
+
+<div>
+    <h1>@mensaje</h1>
+</div>
+
+
+@code {
+    [Parameter]
+    public string Message { get; set; }
+
+    string mensaje = "Un contenido";
+    string text;
+
+    protected override async Task OnInitializedAsync()
+    {
+        mensaje = Message;
+    }
+
+    private void ChangeText()
+    {
+        mensaje = text;
+    }
+}
