@@ -10,7 +10,7 @@ namespace Business
 {
     public class B_InputOutput
     {
-        public List<InputOutputEntity> InputOutputList()
+        public static List<InputOutputEntity> InputOutputList()
         {
             using (var db = new InventaryContext())
             {

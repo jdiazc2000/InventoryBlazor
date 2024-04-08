@@ -1,6 +1,7 @@
 ﻿@using Entities
 @using Business
 @inject NavigationManager NavManager
+@inject SweetAlertService SweetAlert
 
 <div>
     <EditForm Model="ObProduct">
@@ -27,6 +28,7 @@
 
         <div>
             <button type="button" class="btn btn-primary" @onclick="UpdateProduct">Actualizar Producto</button>
+            <button type="button" class="btn btn-danger" @onclick="RemoveProduct">Eliminar Producto</button>
         </div>
 
     </EditForm>
@@ -50,4 +52,36 @@
         B_Product.UpdateProduct(ObProduct);
         NavManager.NavigateTo("product/list");
     }
+
+    private async void RemoveProduct()
+    {
+        //B_Product.RemoveProduct(ObProduct);
+        //NavManager.NavigateTo("product/list");
+
+        SweetAlertResult resultado = await SweetAlert.FireAsync(new SweetAlertOptions
+            {
+                Title = "Quieres eliminar el producto " + ObProduct.ProductName,
+                Icon = SweetAlertIcon.Warning,
+                ShowCancelButton = true,
+                ConfirmButtonText = "Sí",
+                CancelButtonText = "No"
+        });
+
+        if (!string.IsNullOrEmpty(resultado.Value))
+        {
+            await SweetAlert.FireAsync(
+              "El producto fue eliminado" ,
+              "El producto fue eliminado con éxito.",
+              SweetAlertIcon.Success
+              );
+
+            B_Product.RemoveProduct(ObProduct);
+            NavManager.NavigateTo("product/list");
+        }
+        else if (resultado.Dismiss == DismissReason.Cancel)
+        {
+    
+        }
+    }
 }
+

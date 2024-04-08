@@ -139,3 +139,5 @@ C:\Users\Julio\Desktop\Projects\.NET MVC\InventaryBlazor\InventaryBlazor\bin\Deb
 C:\Users\Julio\Desktop\Projects\.NET MVC\InventaryBlazor\InventaryBlazor\bin\Debug\net8.0\Entities.pdb
 C:\Users\Julio\Desktop\Projects\.NET MVC\InventaryBlazor\InventaryBlazor\bin\Debug\net8.0\DataAccess.pdb
 C:\Users\Julio\Desktop\Projects\.NET MVC\InventaryBlazor\InventaryBlazor\obj\Debug\net8.0\InventaryBlazor.csproj.AssemblyReference.cache
+C:\Users\Julio\Desktop\Projects\.NET MVC\InventaryBlazor\InventaryBlazor\bin\Debug\net8.0\CurrieTechnologies.Razor.SweetAlert2.dll
+C:\Users\Julio\Desktop\Projects\.NET MVC\InventaryBlazor\InventaryBlazor\obj\Debug\net8.0\InventaryBlazor.sourcelink.json

@@ -10,7 +10,7 @@ namespace Business
 {
     public class B_Warehouse
     {
-        public List<WareHouseEntity> StorageList()
+        public static List<WareHouseEntity> StorageList()
         {
             using (var db = new InventaryContext())
             {

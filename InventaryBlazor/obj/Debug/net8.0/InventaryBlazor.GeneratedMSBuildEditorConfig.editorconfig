@@ -26,16 +26,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xFamVyY2ljaW9zXEJsYXpvclBhZ2VzXEZvcm0wMDEucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Julio/Desktop/Projects/.NET MVC/InventaryBlazor/InventaryBlazor/Components/Ejercicios/Categories/ListCategoriesComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xFamVyY2ljaW9zXENhdGVnb3JpZXNcTGlzdENhdGVnb3JpZXNDb21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Julio/Desktop/Projects/.NET MVC/InventaryBlazor/InventaryBlazor/Components/Ejercicios/Products/CreateProductComponent.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xFamVyY2ljaW9zXFByb2R1Y3RzXENyZWF0ZVByb2R1Y3RDb21wb25lbnQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Julio/Desktop/Projects/.NET MVC/InventaryBlazor/InventaryBlazor/Components/Ejercicios/Products/ListProductsComponents.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xFamVyY2ljaW9zXFByb2R1Y3RzXExpc3RQcm9kdWN0c0NvbXBvbmVudHMucmF6b3I=
+[C:/Users/Julio/Desktop/Projects/.NET MVC/InventaryBlazor/InventaryBlazor/Components/Ejercicios/Products/ListProductsComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xFamVyY2ljaW9zXFByb2R1Y3RzXExpc3RQcm9kdWN0c0NvbXBvbmVudC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Julio/Desktop/Projects/.NET MVC/InventaryBlazor/InventaryBlazor/Components/Ejercicios/Products/UpdateProductsComponent.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xFamVyY2ljaW9zXFByb2R1Y3RzXFVwZGF0ZVByb2R1Y3RzQ29tcG9uZW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Julio/Desktop/Projects/.NET MVC/InventaryBlazor/InventaryBlazor/Components/Pages/Categories/ListCategoriesPage.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDYXRlZ29yaWVzXExpc3RDYXRlZ29yaWVzUGFnZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Julio/Desktop/Projects/.NET MVC/InventaryBlazor/InventaryBlazor/Components/Pages/Counter.razor]

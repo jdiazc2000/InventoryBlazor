@@ -1,10 +1,15 @@
 using InventaryBlazor.Components;
+using CurrieTechnologies.Razor.SweetAlert2;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
+
+builder.Services.AddSweetAlert2(options => {
+    options.Theme = SweetAlertTheme.Bulma;
+});
 
 var app = builder.Build();
 
