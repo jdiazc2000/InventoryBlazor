@@ -1,0 +1,70 @@
+﻿@using Entities
+@using Business
+@inject NavigationManager NavManager
+
+<div>
+    <EditForm Model="obStorage">
+
+        <div class="form-group">
+            <label class="form-label">Bodega:</label>
+            <InputSelect @bind-Value="obStorage.WarehouseId" class="form-control">
+                <option value="">Seleccione una bodega</option>
+                @foreach (var warehouse in WarehousesList)
+                {
+                    <option value="@warehouse.WareHouseId">@warehouse.WareHouseName</option>
+                }
+            </InputSelect>
+        </div>
+
+        <div class="form-group">
+            <label class="form-label">Producto:</label>
+            <InputSelect @bind-Value="obStorage.ProductId" class="form-control">
+                <option value="">Seleccione un producto</option>
+                @foreach (var product in ProductsList)
+                {
+                    <option value="@product.ProductId">@product.ProductName</option>
+                }
+            </InputSelect>
+        </div>
+
+
+        <hr />
+        <div>
+            <button type="button" class="btn btn-primary" @onclick="SaveStorage">Agregar Almacenamiento</button>
+        </div>
+        <hr />
+
+        @message
+    </EditForm>
+</div>
+
+@code {
+    StorageEntity obStorage = new StorageEntity();
+    List<WareHouseEntity> WarehousesList = new List<WareHouseEntity>();
+    List<ProductEntity> ProductsList = new List<ProductEntity>();
+    string message;
+
+    protected override async Task OnInitializedAsync()
+    {
+        WarehousesList = B_Warehouse.WareHousesList();
+        ProductsList = B_Product.ProductList();
+    }
+
+    private void SaveStorage()
+    {
+        obStorage.StorageId = $"{obStorage.WarehouseId}-{obStorage.ProductId}";
+
+        if (!B_Storage.IsProductInWareHouse(obStorage.StorageId))
+        {
+            obStorage.LastUpdate = new System.DateTime();
+            B_Storage.CreateStorage(obStorage);
+            message = "Almacenamiento registrado";
+
+            //NavManager.NavigateTo("storage/list");
+        }
+        else
+        {
+            message = "El producto ya ha sido registrado con anterioridad";
+        }
+    }
+}

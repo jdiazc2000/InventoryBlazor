@@ -1,5 +1,6 @@
 ﻿using DataAccess;
 using Entities;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -24,6 +25,23 @@ namespace Business
             {
                 db.TBStorages.Add(objStorage);
                 db.SaveChanges();
+            }
+        }
+
+        public static bool IsProductInWareHouse(string IdStorage)
+        {
+            using (var db = new InventaryContext())
+            {
+                var product = db.TBStorages.ToList().Where(id => id.StorageId == IdStorage);
+                return product.Any();
+            }
+        }
+
+        public static List<StorageEntity> StorageProductsByWarehouse(string IdWherehouse)
+        {
+            using (var db = new InventaryContext())
+            {
+                return db.TBStorages.Include(s => s.Product).Include(s => s.Warehouse).Where(v => v.WarehouseId == IdWherehouse).ToList();
             }
         }
 

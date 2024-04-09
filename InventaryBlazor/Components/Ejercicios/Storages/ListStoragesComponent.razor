@@ -1,0 +1,46 @@
+﻿@using Entities
+@using Business
+
+<table class="table table-hover table-bordered">
+    <thead>
+        <tr>
+            <th>Referencia</th>
+            <th>Última actualización</th>
+            <th>Cantidad</th>
+            <th>Productos</th>
+            <th>Depósito</th>
+            <th>Entradas Y Salidas</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var storage in ObStorages)
+        {
+            <tr>
+                <td>@storage.StorageId</td>
+                <td>@storage.LastUpdate</td>
+                <td>@storage.PartialQuantity</td>
+                <td>@storage.ProductId</td>
+                <td>@storage.WarehouseId</td>
+                <td><a class="btn btn-success" href="category/update/@storage.StorageId">Actualizar</a></td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@filterProduct
+@filterWarehouse
+
+@code {
+    List<StorageEntity> ObStorages = new List<StorageEntity>();
+    List<StorageEntity> TempObStorages = new List<StorageEntity>();
+
+    List<ProductEntity> ProductsList = new List<ProductEntity>();
+    List<WareHouseEntity> WareHouseList = new List<WareHouseEntity>();
+
+    string filterProduct, filterWarehouse;
+
+    protected override async Task OnInitializedAsync()
+    {
+        ObStorages = B_Storage.StorageList();
+    }
+}

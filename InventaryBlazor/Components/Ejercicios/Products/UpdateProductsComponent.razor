@@ -26,10 +26,12 @@
             </InputSelect>
         </div>
 
+        <hr />
         <div>
             <button type="button" class="btn btn-primary" @onclick="UpdateProduct">Actualizar Producto</button>
             <button type="button" class="btn btn-danger" @onclick="RemoveProduct">Eliminar Producto</button>
         </div>
+        <hr />
 
     </EditForm>
 </div>
@@ -55,15 +57,12 @@
 
     private async void RemoveProduct()
     {
-        //B_Product.RemoveProduct(ObProduct);
-        //NavManager.NavigateTo("product/list");
-
         SweetAlertResult resultado = await SweetAlert.FireAsync(new SweetAlertOptions
             {
                 Title = "Quieres eliminar el producto " + ObProduct.ProductName,
                 Icon = SweetAlertIcon.Warning,
                 ShowCancelButton = true,
-                ConfirmButtonText = "Sí",
+                ConfirmButtonText = "Si",
                 CancelButtonText = "No"
         });
 

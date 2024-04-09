@@ -10,22 +10,20 @@
         </tr>
     </thead>
     <tbody>
-        @foreach (var categorie in ObCategories)
+        @foreach (var category in ObCategories)
         {
             <tr>
-                <td>@categorie.CategoryId</td>
-                <td>@categorie.CategoryName</td>
-                <td><a class="btn btn-success" href="product/update/@categorie.CategoryId">Actualizar</a></td>
+                <td>@category.CategoryId</td>
+                <td>@category.CategoryName</td>
+                <td><a class="btn btn-success" href="category/update/@category.CategoryId">Actualizar</a></td>
             </tr>
         }
     </tbody>
 </table>
 
-@filter
 
 @code {
     List<CategoryEntity> ObCategories = new List<CategoryEntity>();
-    string filter;
 
     protected override async Task OnInitializedAsync()
     {

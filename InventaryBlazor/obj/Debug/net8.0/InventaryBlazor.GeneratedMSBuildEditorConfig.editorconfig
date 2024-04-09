@@ -26,8 +26,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xFamVyY2ljaW9zXEJsYXpvclBhZ2VzXEZvcm0wMDEucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Julio/Desktop/Projects/.NET MVC/InventaryBlazor/InventaryBlazor/Components/Ejercicios/Categories/CreateCategoriesComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xFamVyY2ljaW9zXENhdGVnb3JpZXNcQ3JlYXRlQ2F0ZWdvcmllc0NvbXBvbmVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Julio/Desktop/Projects/.NET MVC/InventaryBlazor/InventaryBlazor/Components/Ejercicios/Categories/ListCategoriesComponent.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xFamVyY2ljaW9zXENhdGVnb3JpZXNcTGlzdENhdGVnb3JpZXNDb21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Julio/Desktop/Projects/.NET MVC/InventaryBlazor/InventaryBlazor/Components/Ejercicios/Categories/UpdateCategoryComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xFamVyY2ljaW9zXENhdGVnb3JpZXNcVXBkYXRlQ2F0ZWdvcnlDb21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Julio/Desktop/Projects/.NET MVC/InventaryBlazor/InventaryBlazor/Components/Ejercicios/InOuts/CreateInOutComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xFamVyY2ljaW9zXEluT3V0c1xDcmVhdGVJbk91dENvbXBvbmVudC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Julio/Desktop/Projects/.NET MVC/InventaryBlazor/InventaryBlazor/Components/Ejercicios/Products/CreateProductComponent.razor]
@@ -42,8 +54,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xFamVyY2ljaW9zXFByb2R1Y3RzXFVwZGF0ZVByb2R1Y3RzQ29tcG9uZW50LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Julio/Desktop/Projects/.NET MVC/InventaryBlazor/InventaryBlazor/Components/Ejercicios/Storages/CreateStorageComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xFamVyY2ljaW9zXFN0b3JhZ2VzXENyZWF0ZVN0b3JhZ2VDb21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Julio/Desktop/Projects/.NET MVC/InventaryBlazor/InventaryBlazor/Components/Ejercicios/Storages/ListStoragesComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xFamVyY2ljaW9zXFN0b3JhZ2VzXExpc3RTdG9yYWdlc0NvbXBvbmVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Julio/Desktop/Projects/.NET MVC/InventaryBlazor/InventaryBlazor/Components/Pages/Categories/CreateCategoriePage.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDYXRlZ29yaWVzXENyZWF0ZUNhdGVnb3JpZVBhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Julio/Desktop/Projects/.NET MVC/InventaryBlazor/InventaryBlazor/Components/Pages/Categories/ListCategoriesPage.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDYXRlZ29yaWVzXExpc3RDYXRlZ29yaWVzUGFnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Julio/Desktop/Projects/.NET MVC/InventaryBlazor/InventaryBlazor/Components/Pages/Categories/UpdateCategoryPage.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDYXRlZ29yaWVzXFVwZGF0ZUNhdGVnb3J5UGFnZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Julio/Desktop/Projects/.NET MVC/InventaryBlazor/InventaryBlazor/Components/Pages/Counter.razor]
@@ -58,6 +86,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Julio/Desktop/Projects/.NET MVC/InventaryBlazor/InventaryBlazor/Components/Pages/InOuts/CreateInOutsPage.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xJbk91dHNcQ3JlYXRlSW5PdXRzUGFnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Julio/Desktop/Projects/.NET MVC/InventaryBlazor/InventaryBlazor/Components/Pages/Products/CreateProductPage.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQcm9kdWN0c1xDcmVhdGVQcm9kdWN0UGFnZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -68,6 +100,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Julio/Desktop/Projects/.NET MVC/InventaryBlazor/InventaryBlazor/Components/Pages/Products/UpdateProductPage.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQcm9kdWN0c1xVcGRhdGVQcm9kdWN0UGFnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Julio/Desktop/Projects/.NET MVC/InventaryBlazor/InventaryBlazor/Components/Pages/Storages/CreateStoragePage.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xTdG9yYWdlc1xDcmVhdGVTdG9yYWdlUGFnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Julio/Desktop/Projects/.NET MVC/InventaryBlazor/InventaryBlazor/Components/Pages/Storages/ListStoragesPage.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xTdG9yYWdlc1xMaXN0U3RvcmFnZXNQYWdlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Julio/Desktop/Projects/.NET MVC/InventaryBlazor/InventaryBlazor/Components/Pages/Weather.razor]

@@ -154,6 +154,16 @@ namespace DataAccess.Migrations
                     b.HasIndex("WarehouseId");
 
                     b.ToTable("TBStorages");
+
+                    b.HasData(
+                        new
+                        {
+                            StorageId = "79d4b184-b745-44eb-bff3-9945686266c4",
+                            LastUpdate = new DateTime(2024, 4, 8, 20, 6, 5, 436, DateTimeKind.Utc).AddTicks(5590),
+                            PartialQuantity = 100,
+                            ProductId = "B2",
+                            WarehouseId = "4ff27e3b-c3e6-4084-b5d0-da2b7f686896"
+                        });
                 });
 
             modelBuilder.Entity("Entities.WareHouseEntity", b =>
@@ -179,19 +189,19 @@ namespace DataAccess.Migrations
                     b.HasData(
                         new
                         {
-                            WareHouseId = "4ff27e3b-c3e6-4084-b5d0-da2b7f686896",
+                            WareHouseId = "e26389da-4f29-4fbf-93f4-7598f87102b1",
                             WareHouseAddress = "Calle 8 con 23",
                             WareHouseName = "Bodega Central"
                         },
                         new
                         {
-                            WareHouseId = "e9a4da00-4d4c-445d-80c8-dc86170fc81b",
+                            WareHouseId = "334c0496-0763-411b-9335-e96fbd87f4b7",
                             WareHouseAddress = "Calle 10 con 11",
                             WareHouseName = "Bodega Inferior"
                         },
                         new
                         {
-                            WareHouseId = "16bf72a2-feb4-4f76-8a88-5e9cbdcc921a",
+                            WareHouseId = "9ad65b67-eedc-4bd9-a3be-44a1ca1d3631",
                             WareHouseAddress = "Calle 2 con 38",
                             WareHouseName = "Bodega Superior"
                         });

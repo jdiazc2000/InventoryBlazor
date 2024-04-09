@@ -1,0 +1,74 @@
+﻿@using Entities
+@using Business
+@inject NavigationManager NavManager
+@inject SweetAlertService SweetAlert
+
+<div>
+    <EditForm Model="ObCategory">
+
+        <div class="form-group">
+            <label class="form-label">Referencia:</label>
+            <InputTextArea @bind-Value="ObCategory.CategoryId" class="form-control" />
+        </div>
+
+        <div class="form-group">
+            <label class="form-label">Nombre:</label>
+            <InputTextArea @bind-Value="ObCategory.CategoryName" class="form-control" />
+        </div>
+
+        <hr />
+        <div>
+            <button type="button" class="btn btn-primary" @onclick="UpdateCategory">Actualizar Categoría</button>
+            <button type="button" class="btn btn-danger" @onclick="RemoveCategory">Eliminar Categoría</button>
+        </div>
+        <hr />
+
+    </EditForm>
+</div>
+
+@code {
+    CategoryEntity ObCategory = new CategoryEntity();
+
+    [Parameter]
+    public string IdCategory { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        ObCategory = B_Category.CategoryById(IdCategory);
+    }
+
+    private void UpdateCategory()
+    {
+        //ObCategory.CategoryName = "Gaaaaa";
+        B_Category.UpdateCategory(ObCategory);
+        NavManager.NavigateTo("categories/list");
+    }
+
+    private async void RemoveCategory()
+    {
+        SweetAlertResult resultado = await SweetAlert.FireAsync(new SweetAlertOptions
+            {
+                Title = "Quieres eliminar esta categoría: " + ObCategory.CategoryName,
+                Icon = SweetAlertIcon.Warning,
+                ShowCancelButton = true,
+                ConfirmButtonText = "Si",
+                CancelButtonText = "No"
+            });
+
+        if (!string.IsNullOrEmpty(resultado.Value))
+        {
+            await SweetAlert.FireAsync(
+              "La categoría fue eliminada",
+              "La categoría fue eliminada con éxito.",
+              SweetAlertIcon.Success
+              );
+
+            B_Category.RemoveCategory(ObCategory);
+            NavManager.NavigateTo("categories/list");
+        }
+        else if (resultado.Dismiss == DismissReason.Cancel)
+        {
+
+        }
+    }
+}
